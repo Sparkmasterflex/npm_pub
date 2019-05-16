@@ -1,0 +1,9 @@
+[package]
+name = "npm_pub"
+version = "0.1.0"
+authors = ["Keith Raymond <keith@hq.realgeeks.com>"]
+edition = "2018"
+
+[dependencies]
+termion = "1"
+regex   = "0.2"
