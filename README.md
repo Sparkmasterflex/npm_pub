@@ -16,7 +16,7 @@ This CLI Tool runs:
 
 ## Installing
 
-* Download binary executable
+* Download [binary executable](https://github.com/Sparkmasterflex/npm_pub/releases/tag/0.1.0) 
 * move it to `/usr/local/bin/`
 
 or
