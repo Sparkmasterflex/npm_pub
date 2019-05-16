@@ -29,7 +29,7 @@ or
 
 _This is all assuming that `/usr/local/bin/` is in your `$PATH` variable_
 
-## Running Tool
+## Usage
 
 ### Prerequisites
 
@@ -42,5 +42,8 @@ _This is all assuming that `/usr/local/bin/` is in your `$PATH` variable_
 * User must be logged in to npm via terminal
   * `npm login`
 
+### Running Tool
+
 In your command line (terminal, iterm, etc) run:
-`$ npm_pub [major, minor, patch]`
+* `$ cd /path/to/project`
+* `$ npm_pub [major, minor, patch]`
