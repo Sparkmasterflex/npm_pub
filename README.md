@@ -31,5 +31,16 @@ _This is all assuming that `/usr/local/bin/` is in your `$PATH` variable_
 
 ## Running Tool
 
+### Prerequisites
+
+* Project must
+   *  be a valid npm project with
+      * package.json
+      * build script (webpack, etc)
+   * be an initiated Git repo
+      * with a remote repo (Github, etc)
+* User must be logged in to npm via terminal
+  * `npm login`
+
 In your command line (terminal, iterm, etc) run:
 `$ npm_pub [major, minor, patch]`
