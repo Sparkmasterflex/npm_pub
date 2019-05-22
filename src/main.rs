@@ -13,7 +13,7 @@ fn main() {
     println!("Please provide valid Semantic Version");
 
   } else {
-    let mut iter = ["major", "minor", "patch"].iter();
+    let mut iter = ["major", "minor", "patch", "premajor", "preminor", "prepatch", "prerelease"].iter();
     let version = &args[1];
 
     match iter.find(|&&x| x == version) {
