@@ -7,7 +7,7 @@ This CLI Tool runs:
     * this will need to be in your package.json "scripts"
     * read more here: [npm docs](https://docs.npmjs.com/misc/scripts)
 2. `npm version $ver` - based on argument passed 
-    * acceptable versions `major`, `minor`, `patch`
+    * acceptable versions `major`, `minor`, `patch`, `premajor`, `preminor`, `prepatch`, `prerelease`
     * read more here [Semantic Versioning](https://semver.org/)
 3. `git push` - pushes to git repo set in `remote`
     * `git rev-parse --abbrev-ref HEAD` - to get current branch
